@@ -40,6 +40,10 @@
         <servlet-name>ControladorFactura</servlet-name>
         <servlet-class>Controlador.ControladorFactura</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ControladorReporteFactura</servlet-name>
+        <servlet-class>Controlador.ControladorReporteFactura</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ControladorUsuario</servlet-name>
         <url-pattern>/ControladorUsuario</url-pattern>
@@ -79,6 +83,10 @@
     <servlet-mapping>
         <servlet-name>ControladorFactura</servlet-name>
         <url-pattern>/ControladorFactura</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorReporteFactura</servlet-name>
+        <url-pattern>/ControladorReporteFactura</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
